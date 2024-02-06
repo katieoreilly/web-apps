@@ -1,0 +1,13 @@
+<h1>Puppies!!!</h1>
+
+<p>I love puppies</p>
+
+<% breeds = ["Poodles", "Bichons", "Corgis", "Yorkies", "Daschunds"] %>
+
+<p> We have <%= breeds.count %> puppies </p>
+
+<ul> 
+ <% for breed in breeds %>
+    <li> <%= breed%> </li>
+ <% end %>
+</ul>
